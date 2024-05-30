@@ -1,0 +1,119 @@
+body{
+    text-align: center;
+}
+
+.txt1{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+
+}
+.btn{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    border-radius: 15px;
+    color: black;
+    
+}
+.txt1:hover{
+    color: blue;
+    transition: 100ms;
+}
+.btn:hover{
+    color: blue;
+    transition: 100ms;
+}
+.txt2{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.txt2:active{
+    color: green;
+}
+.border{
+    border: 4px solid black;
+    width: 50%;
+    height: 2000px;
+    margin: auto;
+    background-color: antiquewhite;
+}
+hr{
+   background-color: black;
+   width: 50%;
+   padding: 2px;
+   
+}
+.btn2{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    border-radius: 15px;
+    color: black;
+}
+.btn2:active{
+    color: white;
+    transition: 100ms;
+    background-color: blue;
+}
+.vis:visited{
+    color: purple;
+
+}
+.txt3{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.link:link{
+    background-color: yellow;
+}
+
+input:autofill {
+    border: 3px solid blue;
+  }
+.f-child{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 19px;
+}
+.f-child p:first-child{
+    color: yellow;
+}
+.dis:disabled{
+    color: red;
+    background-color: aqua;
+}
+.dis{
+    font-size: 50px;
+    border-radius: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+.first p:first-of-type{
+    border: solid 3px crimson;
+}
+.fc:focus {
+    background-color: yellow;
+  }
+
+p::first-letter {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: brown;
+  }
+
+  label {
+    display: block;
+    margin-top: 1em;
+  }
+  
+  input:in-range {
+    background-color: palegreen;
+  }
+  
